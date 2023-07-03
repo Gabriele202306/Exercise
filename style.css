@@ -1,0 +1,64 @@
+body {
+
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* Targeting the <h1> element */
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+  }
+  
+  /* Targeting the <form> element */
+  form {
+    margin: 0 auto;
+    max-width: 200px;
+  }
+  
+  /* Targeting the <label> elements */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Targeting the <input> elements */
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Targeting the <button> elements */
+  .calculate,
+  .reset {
+    background-color: #ece4e5;
+    color: rgb(10, 10, 10);
+    padding: 10px;
+    border-radius: 20px;;
+    cursor: pointer;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+  }
+  
+  .calculate:hover,
+  .reset:hover {
+    background-color: #b5beb6;
+  }
+  
+  .calculate:active,
+  .reset:active {
+    background-color: #e1ebe1;
+  }
+
+
